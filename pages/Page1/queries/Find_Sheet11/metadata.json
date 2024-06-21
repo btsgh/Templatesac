@@ -45,7 +45,7 @@
           "data": "Sheet1"
         },
         "sheetUrl": {
-          "data": "https://docs.google.com/spreadsheets/d/1UQ7I6dLFiWdnFAlc9KydFAkfvQITplJiDg6DQZ8zZXc/edit"
+          "data": "https://docs.google.com/spreadsheets/d/1xlv3CMsqyDCz-ohca64z6mytvB1e3PpLXQtBAeLJngc/edit"
         },
         "smartSubstitution": {
           "data": true
@@ -81,10 +81,10 @@
         "key": "formData.where.data"
       },
       {
-        "key": "formData.sortBy.data"
+        "key": "formData.pagination.data"
       },
       {
-        "key": "formData.pagination.data"
+        "key": "formData.sortBy.data[0].column"
       }
     ],
     "isValid": true,

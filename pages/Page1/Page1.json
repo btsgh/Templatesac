@@ -28,6 +28,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Page1_Total_record_Sheet11",
+              "name": "Total_record_Sheet11",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Table1.searchText",
+                "Table1.searchText ? \"undefined\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Page1_Find_Sheet11",
               "name": "Find_Sheet11",
               "confirmBeforeExecute": false,
@@ -38,19 +51,6 @@
                 "Table1.searchText ? \"undefined\" : \"\"",
                 "Table1.pageSize",
                 "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1_Total_record_Sheet11",
-              "name": "Total_record_Sheet11",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.searchText ? \"undefined\" : \"\""
               ],
               "timeoutInMillisecond": 10000
             }

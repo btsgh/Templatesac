@@ -52,7 +52,7 @@
       "pluginId": "mongo-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "avg_feed_repair",
     "pageId": "Business dashboard",
     "userSetOnLoad": false
